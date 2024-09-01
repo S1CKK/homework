@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <title>Basic HTML</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid lightgray;
+      }
+      th {
+        background-color: rgb(242, 242, 242);
+        border: 1px solid lightgray;
+        text-align: left;
+        padding: 20px;
+      }
+
+      tr {
+        background-color: #dddddd;
+      }
+      td {
+        padding: 20px;
+        background-color: white;
+        border-bottom: 1px dashed gray;
+      }
+      .blue-icon {
+        color: rgb(24, 94, 214);
+      }
+      .button-container {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+      }
+      .no-space-button {
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+        display: inline-block;
+      }
+
+      #footer {
+        text-align: right;
+      }
+
+      #footer button {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="margin-left: 400px; margin-right: 400px; margin-top: 100px">
+      <table style="width: 100%">
+        <tr>
+          <th id="header" colspan="2"><i class="fa fa-list-alt"></i> News</th>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://seeklogo.com/images/A/angry-bird-logo-55B08DB973-seeklogo.com.png"
+              height="50px"
+            />
+          </td>
+          <td>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eum
+            saepe provident quis at illum tempore temporibus minus! Nulla enim
+            aperiam nobis atque quasi placeat nesciunt et alias exercitationem.
+            Iste?
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/angry-icons-by-femfoyou/370/greenbird.png"
+              height="50px"
+            />
+          </td>
+          <td>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+            assumenda impedit ab itaque ea officia, repellendus hic? Adipisci
+            ex, incidunt facilis odit autem laborum temporibus, fugiat, animi
+            aliquid nam atque?
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://www.freeiconspng.com/thumbs/angry-birds-png/angry-birds-transparent-background-22.png"
+              height="50px"
+            />
+          </td>
+          <td>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+            assumenda impedit ab itaque ea officia, repellendus hic? Adipisci
+            ex, incidunt facilis odit autem laborum temporibus, fugiat, animi
+            aliquid nam atque?
+          </td>
+        </tr>
+        <tr>
+          <th id="footer" colspan="2">
+            <div class="button-container">
+              <button class="no-space-button blue-icon">
+                <i class="fa fa-chevron-down"></i>
+              </button>
+              <button class="no-space-button blue-icon">
+                <i class="fa fa-chevron-up"></i>
+              </button>
+            </div>
+          </th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
